@@ -1,0 +1,13 @@
+Package: StructuralHolesR
+Type: Package
+Title: Burt's Structural Holes in R
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: Matthew Smith <matt_smith.90@hotmail.co.uk>
+Description: Processes data and calculates node level structural hole measures.Input network can be various format - matrix, igraph or network object.
+Depends: R (>= 2.10)
+License: GPL-3
+Encoding: UTF-8
+Imports: network,sna,statnet,egonet,plyr,igraph
+LazyData: true
+RoxygenNote: 6.0.1
